@@ -1,18 +1,13 @@
-# React + Vite
+# Ollama Local AI-Chat example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Prerequisities
 
-Currently, two official plugins are available:
+1. Ollama needs to be installed https://ollama.com/ and a model small enough for the device to be able to run it needs to be loaded.
+2. Run the model and expose ollama API to network (or use cli serve)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Getting started
 
-## React Compiler
+1. Run `npm install` command in project's root
+2. Run `npm run dev` to start the dev-server
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
